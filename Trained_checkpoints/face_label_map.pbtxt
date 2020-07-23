@@ -1,0 +1,10 @@
+item {
+  name: "face"
+  id: 1
+  display_name: "face"
+}
+item {
+  name: "face_mask"
+  id: 2
+  display_name: "face_mask"
+}
