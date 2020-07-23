@@ -12,10 +12,13 @@ You can try [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-det
 
 ## Model 
 
-As final goal of thi sproject is to deploy it on coral device, I have choosen to start with [MobileNet SSD v2 (Faces)](http://download.tensorflow.org/models/object_detection/facessd_mobilenet_v2_quantized_320x320_open_image_v4.tar.gz) model.The anchor generator has been configured to
+As final goal of this project is to deploy it on coral device, I have choosen to start with [MobileNet SSD v2 (Faces)](http://download.tensorflow.org/models/object_detection/facessd_mobilenet_v2_quantized_320x320_open_image_v4.tar.gz) model.The anchor generator has been configured to
 detect faces. You can find trained chekcpoints and models compiled for edge tpu above. 
 
 ## Demo
+
+
+
 
 
 ## Transfer Learning
