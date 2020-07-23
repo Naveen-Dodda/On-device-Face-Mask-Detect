@@ -15,10 +15,10 @@ You can try [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-det
 As final goal of thi sproject is to deploy it on coral device, I have choosen to start with [MobileNet SSD v2 (Faces)](http://download.tensorflow.org/models/object_detection/facessd_mobilenet_v2_quantized_320x320_open_image_v4.tar.gz) model.The anchor generator has been configured to
 detect faces. You can find trained chekcpoints and models compiled for edge tpu above. 
 
-##Demo
+## Demo
 
 
-##Transfer Learning
+## Transfer Learning
 
 The most important aspect of this project is to choose right dataset that suits your environmet or work conditions. I have trained it on a generic dataset but if you
 wish to optimize the model for your environment, transfer learning using the pretrained checkpoints is highly recommended. There are many ways to do this I have used 
