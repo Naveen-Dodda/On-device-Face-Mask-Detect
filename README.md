@@ -17,6 +17,19 @@ detect faces. You can find trained chekcpoints and models compiled for edge tpu 
 
 ## Demo
 
+I am using coral [dev board](https://coral.ai/docs/dev-board/get-started/#requirements) to get started and [setup a camera](https://coral.ai/docs/dev-board/camera/#connect-a-usb-camera) 
+
+git clone https://github.com/google-coral/examples-camera.git
+
+cd examples-camera/gstreamer 
+             (or)
+cd examples-camera/opencv
+
+python3 detect.py \
+  --model Path_To_Be_Configured  \
+  --labels Path_To_Be_Configured
+
+
 
 
 
