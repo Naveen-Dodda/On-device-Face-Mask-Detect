@@ -25,9 +25,7 @@ cd examples-camera/gstreamer
              (or)
 cd examples-camera/opencv
 
-python3 detect.py \
-  --model Path_To_Be_Configured  \
-  --labels Path_To_Be_Configured
+python3 detect.py --model Path_To_Be_Configured  --labels Path_To_Be_Configured
 
 
 
